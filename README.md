@@ -16,7 +16,7 @@ Dự án hỗ trợ các tính năng sau:
 ## Yêu cầu
 
 1. Hỗ trợ PLC Inovance các dòng **AM600**, **H3U**, **H5U** và **EASY**.
-2. bạn có thể dùng AutoShop để mô phòng các dòng plc Inovance H5U, Easy (H3U không hỗ trợ mô phỏng).
+2. Có thể dùng AutoShop để mô phòng các dòng plc Inovance H5U, Easy (H3U không hỗ trợ mô phỏng).
 
 ## Liên hệ
 
