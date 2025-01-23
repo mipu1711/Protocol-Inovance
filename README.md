@@ -1,6 +1,6 @@
-# Giao thức kết nối PLC Inovance
+# Giao thức C# kết nối PLC Inovance
 
-Dự án này cung cấp giao thức để kết nối C# với các dòng PLC Inovance bao gồm **AM600**, **H3U**, **H5U** và **EASY**.
+Giao thức để kết nối C# với các dòng PLC Inovance bao gồm **AM600**, **H3U**, **H5U** và **EASY**.
 
 ## Tính năng
 
