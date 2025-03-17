@@ -55,34 +55,46 @@ namespace Inovance
         H5U,
         EASY
     }
-    public class PLC
+    public class PLC : IDisposable
     {
-        public bool IsConnected;
-        public string ip;
-        public int NetiD;
-        public int Port;
+        private string _ip;
+        private int _netId;
+        private int _port;
+        private bool _isConnected;
+
+        public bool IsConnected { get => _isConnected; private set => _isConnected = value; }
+        public string IP { get => _ip; }
+        public int NetID { get => _netId; }
+        public int Port { get => _port; }
+
         PlcType plcType;
         object plc = new object();
         public PLC(PlcType type, string ip, int port = 502, int NetiD = 0)
         {
             this.plcType = type;
-            this.ip = ip;
-            this.Port = port;
-            this.NetiD = NetiD;
+            _ip = ip;
+            _port = port;
+            _netId = NetiD;
             IsConnected = false;
         }
         public bool Connect()
         {
+            if (disposed) throw new ObjectDisposedException("PLC");
+
             try
             {
                 if (!IsConnected)
                 {
-                    IsConnected = Init_ETH_String(ip, NetiD, Port);
+                    IsConnected = Init_ETH_String(_ip, _netId, _port);
+                    if (!IsConnected)
+                    {
+                        throw new InvalidOperationException($"Failed to connect to PLC at {_ip}:{_port}");
+                    }
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                throw;
+                throw new InvalidOperationException($"Error connecting to PLC: {ex.Message}", ex);
             }
             return IsConnected;
         }
@@ -92,7 +104,7 @@ namespace Inovance
             {
                 if (IsConnected)
                 {
-                    IsConnected = !Exit_ETH(NetiD);
+                    IsConnected = !Exit_ETH(NetID);
                 }
             }
             catch
@@ -583,6 +595,37 @@ namespace Inovance
                 }
             }
 
+        }
+
+        // Thêm trường theo dõi trạng thái disposed
+        private bool disposed = false;
+
+        // Triển khai IDisposable
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposed)
+            {
+                if (disposing)
+                {
+                    // Giải phóng tài nguyên
+                    if (IsConnected)
+                    {
+                        Close();
+                    }
+                }
+                disposed = true;
+            }
+        }
+
+        ~PLC()
+        {
+            Dispose(false);
         }
 
         #region library

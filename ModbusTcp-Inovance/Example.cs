@@ -10,7 +10,6 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace ModbusTcp_Inovance
 {
@@ -306,7 +305,7 @@ namespace ModbusTcp_Inovance
             Label label = (Label)sender;
             Match match = Regex.Match(label.Name, @"\d+");
             short index;
-            if (match.Success)
+            if (match.Success && plc.IsConnected)
             {
                 index = short.Parse(match.Value);
                 bool val = label.BackColor == Color.Green ? false : true;
@@ -314,7 +313,7 @@ namespace ModbusTcp_Inovance
                 bool rs = plc.WriteSingleValue<bool>(dataType, int.Parse(match.Value),val);
                 if (rs)
                 {
-                    label.BackColor = val ? Color.Green : Color.Red;
+                    label.BackColor = val ? Color.Green : Color.DarkGray;
                 }
             }
 
