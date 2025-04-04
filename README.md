@@ -1,26 +1,26 @@
-# Giao thức C# kết nối PLC Inovance
+# C# Protocol for Connecting to Inovance PLCs
 
-Giao thức để kết nối C# với các dòng PLC Inovance bao gồm **AM600**, **H3U**, **H5U** và **EASY**.
+The protocol for connecting C# with Inovance PLCs includes **AM600**, **H3U**, **H5U**, and **EASY** series.
 
-## Tính năng
+## Features
 
-Dự án hỗ trợ các tính năng sau:
+This project supports the following features:
 
-*   Kết nối với PLC Inovance qua Ethernet (sử dụng Modbus TCP).
-*   Đọc và ghi dữ liệu vào thanh ghi PLC.
-*   Đặt và xóa bit PLC.
-*   Thực thi các lệnh PLC.
-*   Giám sát trạng thái PLC.
-*   Xử lý lỗi.
+*   Connect to Inovance PLCs via Ethernet (using Modbus TCP).
+*   Read and write data to PLC registers.
+*   Set and clear PLC bits.
+*   Execute PLC commands.
+*   Monitor PLC status.
+*   Handle errors.
 
-## Yêu cầu
+## Requirements
 
-1. Hỗ trợ PLC Inovance các dòng **AM600**, **H3U**, **H5U** và **EASY**.
-2. Có thể dùng AutoShop để mô phòng các dòng plc Inovance H5U, Easy (H3U không hỗ trợ mô phỏng).
+1. Support for Inovance PLC series **AM600**, **H3U**, **H5U**, and **EASY**.
+2. AutoShop can be used to simulate Inovance PLC models H5U and EASY (H3U does not support simulation).
 
-## Liên hệ
+## Contact
 
-Nếu có bất kỳ câu hỏi hoặc nhận xét nào, vui lòng liên hệ:
+For any questions or feedback, please contact:
 
 *   Email: viethungxzc@gmail.com
-*   GitHub: [Liên kết GitHub](https://github.com/mipu1711/Protocol-Inovance)
+*   GitHub: [GitHub Link](https://github.com/mipu1711/Protocol-Inovance)
