@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.x0 = new System.Windows.Forms.Label();
-            this.x1 = new System.Windows.Forms.Label();
-            this.x2 = new System.Windows.Forms.Label();
-            this.x3 = new System.Windows.Forms.Label();
-            this.x4 = new System.Windows.Forms.Label();
-            this.x5 = new System.Windows.Forms.Label();
-            this.x6 = new System.Windows.Forms.Label();
-            this.x7 = new System.Windows.Forms.Label();
-            this.y0 = new System.Windows.Forms.Label();
-            this.y1 = new System.Windows.Forms.Label();
-            this.y2 = new System.Windows.Forms.Label();
-            this.y3 = new System.Windows.Forms.Label();
-            this.y4 = new System.Windows.Forms.Label();
-            this.y5 = new System.Windows.Forms.Label();
-            this.y6 = new System.Windows.Forms.Label();
             this.y7 = new System.Windows.Forms.Label();
+            this.y6 = new System.Windows.Forms.Label();
+            this.x7 = new System.Windows.Forms.Label();
+            this.y5 = new System.Windows.Forms.Label();
+            this.x6 = new System.Windows.Forms.Label();
+            this.y4 = new System.Windows.Forms.Label();
+            this.x5 = new System.Windows.Forms.Label();
+            this.y3 = new System.Windows.Forms.Label();
+            this.x4 = new System.Windows.Forms.Label();
+            this.y2 = new System.Windows.Forms.Label();
+            this.x3 = new System.Windows.Forms.Label();
+            this.y1 = new System.Windows.Forms.Label();
+            this.x2 = new System.Windows.Forms.Label();
+            this.y0 = new System.Windows.Forms.Label();
+            this.x1 = new System.Windows.Forms.Label();
+            this.x0 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnConnect = new System.Windows.Forms.Button();
@@ -90,179 +90,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "I/O";
             // 
-            // x0
+            // y7
             // 
-            this.x0.BackColor = System.Drawing.Color.Silver;
-            this.x0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x0.Location = new System.Drawing.Point(25, 26);
-            this.x0.Name = "x0";
-            this.x0.Size = new System.Drawing.Size(60, 50);
-            this.x0.TabIndex = 0;
-            this.x0.Text = "X0";
-            this.x0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x0.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x1
-            // 
-            this.x1.BackColor = System.Drawing.Color.Silver;
-            this.x1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x1.Location = new System.Drawing.Point(25, 92);
-            this.x1.Name = "x1";
-            this.x1.Size = new System.Drawing.Size(60, 50);
-            this.x1.TabIndex = 0;
-            this.x1.Text = "X1";
-            this.x1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x1.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x2
-            // 
-            this.x2.BackColor = System.Drawing.Color.Silver;
-            this.x2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x2.Location = new System.Drawing.Point(25, 158);
-            this.x2.Name = "x2";
-            this.x2.Size = new System.Drawing.Size(60, 50);
-            this.x2.TabIndex = 0;
-            this.x2.Text = "X2";
-            this.x2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x2.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x3
-            // 
-            this.x3.BackColor = System.Drawing.Color.Silver;
-            this.x3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x3.Location = new System.Drawing.Point(25, 224);
-            this.x3.Name = "x3";
-            this.x3.Size = new System.Drawing.Size(60, 50);
-            this.x3.TabIndex = 0;
-            this.x3.Text = "X3";
-            this.x3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x3.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x4
-            // 
-            this.x4.BackColor = System.Drawing.Color.Silver;
-            this.x4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x4.Location = new System.Drawing.Point(25, 290);
-            this.x4.Name = "x4";
-            this.x4.Size = new System.Drawing.Size(60, 50);
-            this.x4.TabIndex = 0;
-            this.x4.Text = "X4";
-            this.x4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x4.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x5
-            // 
-            this.x5.BackColor = System.Drawing.Color.Silver;
-            this.x5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x5.Location = new System.Drawing.Point(25, 356);
-            this.x5.Name = "x5";
-            this.x5.Size = new System.Drawing.Size(60, 50);
-            this.x5.TabIndex = 0;
-            this.x5.Text = "X5";
-            this.x5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x5.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x6
-            // 
-            this.x6.BackColor = System.Drawing.Color.Silver;
-            this.x6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x6.Location = new System.Drawing.Point(25, 422);
-            this.x6.Name = "x6";
-            this.x6.Size = new System.Drawing.Size(60, 50);
-            this.x6.TabIndex = 0;
-            this.x6.Text = "X6";
-            this.x6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x6.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x7
-            // 
-            this.x7.BackColor = System.Drawing.Color.Silver;
-            this.x7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.x7.Location = new System.Drawing.Point(25, 488);
-            this.x7.Name = "x7";
-            this.x7.Size = new System.Drawing.Size(60, 50);
-            this.x7.TabIndex = 0;
-            this.x7.Text = "X7";
-            this.x7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.x7.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // y0
-            // 
-            this.y0.BackColor = System.Drawing.Color.Silver;
-            this.y0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y0.Location = new System.Drawing.Point(131, 26);
-            this.y0.Name = "y0";
-            this.y0.Size = new System.Drawing.Size(60, 50);
-            this.y0.TabIndex = 0;
-            this.y0.Text = "Y0";
-            this.y0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.y0.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // y1
-            // 
-            this.y1.BackColor = System.Drawing.Color.Silver;
-            this.y1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y1.Location = new System.Drawing.Point(131, 92);
-            this.y1.Name = "y1";
-            this.y1.Size = new System.Drawing.Size(60, 50);
-            this.y1.TabIndex = 0;
-            this.y1.Text = "Y1";
-            this.y1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.y1.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // y2
-            // 
-            this.y2.BackColor = System.Drawing.Color.Silver;
-            this.y2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y2.Location = new System.Drawing.Point(131, 158);
-            this.y2.Name = "y2";
-            this.y2.Size = new System.Drawing.Size(60, 50);
-            this.y2.TabIndex = 0;
-            this.y2.Text = "Y2";
-            this.y2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.y2.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // y3
-            // 
-            this.y3.BackColor = System.Drawing.Color.Silver;
-            this.y3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y3.Location = new System.Drawing.Point(131, 224);
-            this.y3.Name = "y3";
-            this.y3.Size = new System.Drawing.Size(60, 50);
-            this.y3.TabIndex = 0;
-            this.y3.Text = "Y3";
-            this.y3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.y3.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // y4
-            // 
-            this.y4.BackColor = System.Drawing.Color.Silver;
-            this.y4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y4.Location = new System.Drawing.Point(131, 290);
-            this.y4.Name = "y4";
-            this.y4.Size = new System.Drawing.Size(60, 50);
-            this.y4.TabIndex = 0;
-            this.y4.Text = "Y4";
-            this.y4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.y4.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // y5
-            // 
-            this.y5.BackColor = System.Drawing.Color.Silver;
-            this.y5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y5.Location = new System.Drawing.Point(131, 356);
-            this.y5.Name = "y5";
-            this.y5.Size = new System.Drawing.Size(60, 50);
-            this.y5.TabIndex = 0;
-            this.y5.Text = "Y5";
-            this.y5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.y5.Click += new System.EventHandler(this.x7_Click);
+            this.y7.BackColor = System.Drawing.Color.Silver;
+            this.y7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.y7.Location = new System.Drawing.Point(144, 488);
+            this.y7.Name = "y7";
+            this.y7.Size = new System.Drawing.Size(60, 50);
+            this.y7.TabIndex = 0;
+            this.y7.Text = "Y7";
+            this.y7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.y7.Click += new System.EventHandler(this.x7_Click);
             // 
             // y6
             // 
             this.y6.BackColor = System.Drawing.Color.Silver;
             this.y6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y6.Location = new System.Drawing.Point(131, 422);
+            this.y6.Location = new System.Drawing.Point(144, 422);
             this.y6.Name = "y6";
             this.y6.Size = new System.Drawing.Size(60, 50);
             this.y6.TabIndex = 0;
@@ -270,17 +114,173 @@
             this.y6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.y6.Click += new System.EventHandler(this.x7_Click);
             // 
-            // y7
+            // x7
             // 
-            this.y7.BackColor = System.Drawing.Color.Silver;
-            this.y7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.y7.Location = new System.Drawing.Point(131, 488);
-            this.y7.Name = "y7";
-            this.y7.Size = new System.Drawing.Size(60, 50);
-            this.y7.TabIndex = 0;
-            this.y7.Text = "Y7";
-            this.y7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.y7.Click += new System.EventHandler(this.x7_Click);
+            this.x7.BackColor = System.Drawing.Color.Silver;
+            this.x7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x7.Location = new System.Drawing.Point(38, 488);
+            this.x7.Name = "x7";
+            this.x7.Size = new System.Drawing.Size(60, 50);
+            this.x7.TabIndex = 0;
+            this.x7.Text = "X7";
+            this.x7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x7.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // y5
+            // 
+            this.y5.BackColor = System.Drawing.Color.Silver;
+            this.y5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.y5.Location = new System.Drawing.Point(144, 356);
+            this.y5.Name = "y5";
+            this.y5.Size = new System.Drawing.Size(60, 50);
+            this.y5.TabIndex = 0;
+            this.y5.Text = "Y5";
+            this.y5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.y5.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x6
+            // 
+            this.x6.BackColor = System.Drawing.Color.Silver;
+            this.x6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x6.Location = new System.Drawing.Point(38, 422);
+            this.x6.Name = "x6";
+            this.x6.Size = new System.Drawing.Size(60, 50);
+            this.x6.TabIndex = 0;
+            this.x6.Text = "X6";
+            this.x6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x6.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // y4
+            // 
+            this.y4.BackColor = System.Drawing.Color.Silver;
+            this.y4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.y4.Location = new System.Drawing.Point(144, 290);
+            this.y4.Name = "y4";
+            this.y4.Size = new System.Drawing.Size(60, 50);
+            this.y4.TabIndex = 0;
+            this.y4.Text = "Y4";
+            this.y4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.y4.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x5
+            // 
+            this.x5.BackColor = System.Drawing.Color.Silver;
+            this.x5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x5.Location = new System.Drawing.Point(38, 356);
+            this.x5.Name = "x5";
+            this.x5.Size = new System.Drawing.Size(60, 50);
+            this.x5.TabIndex = 0;
+            this.x5.Text = "X5";
+            this.x5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x5.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // y3
+            // 
+            this.y3.BackColor = System.Drawing.Color.Silver;
+            this.y3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.y3.Location = new System.Drawing.Point(144, 224);
+            this.y3.Name = "y3";
+            this.y3.Size = new System.Drawing.Size(60, 50);
+            this.y3.TabIndex = 0;
+            this.y3.Text = "Y3";
+            this.y3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.y3.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x4
+            // 
+            this.x4.BackColor = System.Drawing.Color.Silver;
+            this.x4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x4.Location = new System.Drawing.Point(38, 290);
+            this.x4.Name = "x4";
+            this.x4.Size = new System.Drawing.Size(60, 50);
+            this.x4.TabIndex = 0;
+            this.x4.Text = "X4";
+            this.x4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x4.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // y2
+            // 
+            this.y2.BackColor = System.Drawing.Color.Silver;
+            this.y2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.y2.Location = new System.Drawing.Point(144, 158);
+            this.y2.Name = "y2";
+            this.y2.Size = new System.Drawing.Size(60, 50);
+            this.y2.TabIndex = 0;
+            this.y2.Text = "Y2";
+            this.y2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.y2.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x3
+            // 
+            this.x3.BackColor = System.Drawing.Color.Silver;
+            this.x3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x3.Location = new System.Drawing.Point(38, 224);
+            this.x3.Name = "x3";
+            this.x3.Size = new System.Drawing.Size(60, 50);
+            this.x3.TabIndex = 0;
+            this.x3.Text = "X3";
+            this.x3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x3.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // y1
+            // 
+            this.y1.BackColor = System.Drawing.Color.Silver;
+            this.y1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.y1.Location = new System.Drawing.Point(144, 92);
+            this.y1.Name = "y1";
+            this.y1.Size = new System.Drawing.Size(60, 50);
+            this.y1.TabIndex = 0;
+            this.y1.Text = "Y1";
+            this.y1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.y1.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x2
+            // 
+            this.x2.BackColor = System.Drawing.Color.Silver;
+            this.x2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x2.Location = new System.Drawing.Point(38, 158);
+            this.x2.Name = "x2";
+            this.x2.Size = new System.Drawing.Size(60, 50);
+            this.x2.TabIndex = 0;
+            this.x2.Text = "X2";
+            this.x2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x2.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // y0
+            // 
+            this.y0.BackColor = System.Drawing.Color.Silver;
+            this.y0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.y0.Location = new System.Drawing.Point(144, 26);
+            this.y0.Name = "y0";
+            this.y0.Size = new System.Drawing.Size(60, 50);
+            this.y0.TabIndex = 0;
+            this.y0.Text = "Y0";
+            this.y0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.y0.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x1
+            // 
+            this.x1.BackColor = System.Drawing.Color.Silver;
+            this.x1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x1.Location = new System.Drawing.Point(38, 92);
+            this.x1.Name = "x1";
+            this.x1.Size = new System.Drawing.Size(60, 50);
+            this.x1.TabIndex = 0;
+            this.x1.Text = "X1";
+            this.x1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x1.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x0
+            // 
+            this.x0.BackColor = System.Drawing.Color.Silver;
+            this.x0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.x0.Location = new System.Drawing.Point(38, 26);
+            this.x0.Name = "x0";
+            this.x0.Size = new System.Drawing.Size(60, 50);
+            this.x0.TabIndex = 0;
+            this.x0.Text = "X0";
+            this.x0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.x0.Click += new System.EventHandler(this.x7_Click);
             // 
             // label17
             // 

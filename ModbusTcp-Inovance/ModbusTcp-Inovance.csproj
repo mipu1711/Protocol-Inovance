@@ -83,13 +83,9 @@
     <Compile Include="Example.Designer.cs">
       <DependentUpon>Example.cs</DependentUpon>
     </Compile>
-    <Compile Include="MES_Error.cs" />
     <Compile Include="PLC_1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Station\Station1.cs" />
-    <Compile Include="Station\Station2.cs" />
-    <Compile Include="Station\StationEx.cs" />
     <Compile Include="TCP_IP.cs" />
     <EmbeddedResource Include="Example.resx">
       <DependentUpon>Example.cs</DependentUpon>

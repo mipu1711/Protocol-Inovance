@@ -302,7 +302,7 @@ namespace ModbusTcp_Inovance
 
         private void x7_Click(object sender, EventArgs e)
         {
-            Label label = (Label)sender;
+            Label label = sender as Label;
             Match match = Regex.Match(label.Name, @"\d+");
             short index;
             if (match.Success && plc.IsConnected)
