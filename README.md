@@ -13,10 +13,10 @@ This project supports the following features:
 *   Monitor PLC status.
 *   Handle errors.
 
-## How to Use
-Copy the following two DLL files into the bin/Debug folder:
-ModbusTcpAPI.dll.
-StandardModbusApi.dll.
+# How to Use
+Copy the following two DLL files into the `bin/Debug` folder:
+- `ModbusTcpAPI.dll`
+- `StandardModbusApi.dll`
 
 ## Requirements
 
