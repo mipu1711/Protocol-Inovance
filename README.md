@@ -15,13 +15,13 @@ This project supports the following features:
 
 ## How to Use
 Copy the following two DLL files into the bin/Debug folder:
-ModbusTcpAPI.dll
-StandardModbusApi.dll
+ModbusTcpAPI.dll.
+StandardModbusApi.dll.
 
 ## Requirements
 
 1. Support for Inovance PLC series **AM600**, **H3U**, **H5U**, and **EASY**.
-2. AutoShop can be used to simulate Inovance PLC models H5U and EASY (H3U does not support simulation).
+3. AutoShop can be used to simulate Inovance PLC models H5U and EASY (H3U does not support simulation).
 
 ## Contact
 
