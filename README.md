@@ -13,6 +13,11 @@ This project supports the following features:
 *   Monitor PLC status.
 *   Handle errors.
 
+## How to Use
+Copy the following two DLL files into the bin/Debug folder:
+ModbusTcpAPI.dll
+StandardModbusApi.dll
+
 ## Requirements
 
 1. Support for Inovance PLC series **AM600**, **H3U**, **H5U**, and **EASY**.
